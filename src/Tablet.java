@@ -17,11 +17,11 @@ public class Tablet {
         return 2+60+number;
     }
 
-    public void whatAboutMoreFunctions(){
-        System.out.println("Why not?");
+    public void showProblem(){
+        System.out.println("Tablet się zrypał");
     }
 
-    public void anotherFunction(){
-        System.out.println("This is useless");
+    public void whatAboutMoreFunctions(){
+        System.out.println("Why not?");
     }
 }
