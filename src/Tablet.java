@@ -20,4 +20,8 @@ public class Tablet {
     public void showProblem(){
         System.out.println("Tablet się zrypał");
     }
+
+    public void whatAboutMoreFunctions(){
+        System.out.println("Why not?");
+    }
 }
