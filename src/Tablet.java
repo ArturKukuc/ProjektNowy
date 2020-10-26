@@ -17,10 +17,6 @@ public class Tablet {
         return 2+60+number;
     }
 
-    public void showProblem(){
-        System.out.println("Tablet się zrypał");
-    }
-
     public void whatAboutMoreFunctions(){
         System.out.println("Why not?");
     }
