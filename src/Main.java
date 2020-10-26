@@ -57,16 +57,16 @@ public class Main {
     }
 
     public static void updateContact(){
-        System.out.print("Enter a name: ");
+        System.out.print("Enter a very important name: ");
         String name = scanner.nextLine();
         scanner.nextLine();
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a maximum number: ");
         int number = scanner.nextInt();
         Phone.updateContact(name, number);
     }
 
     public static void removeContact(){
-        System.out.print("Enter a name: ");
+        System.out.print("Enter a removing name: ");
         String name = scanner.nextLine();
         int length = Phone.getContacts().size();
         int number = 0;

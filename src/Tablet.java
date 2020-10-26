@@ -24,4 +24,8 @@ public class Tablet {
     public void whatAboutMoreFunctions(){
         System.out.println("Why not?");
     }
+
+    public void anotherFunction(){
+        System.out.println("This is useless");
+    }
 }
